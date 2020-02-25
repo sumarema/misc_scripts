@@ -8,11 +8,16 @@ It will generate the log file with same name as the input file with _result in t
 
 Usage Instructions:
 Step 1) Python 3 is required to run this program. Follow the instructions given in python.org to install python3.x
+
 Step 2) Clone requirements.txt and the image_parser.py to your workspace.
+
 Step 3) Install required libs using below command:
-        pip install -r requirements.txt
+pip install -r requirements.txt
+
 Step 4) Copy the required Images you want to compare into the workspace, 
+
 Step 5) Create a CSV File with image1,image2 format
+
 Step 6) Run the below command.
 
 Eg:
