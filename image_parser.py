@@ -103,7 +103,8 @@ def _generate_csv_file(first_images_list, second_images_list, percentage_list, e
 
 
 def image_diff(file_name, **kwargs):
-    """ image_diff takes CSV input of paired Images and show the percentage of differences between them
+    """ image_diff takes CSV input of paired Images and show the percentage of differences between them.
+    The result will be published into workspace with <file_name>_result.csv.
     """
     one_list, two_list = _get_images_list_from_csv(file_name)
     elapsed_list, percentages = _compare_image_data(one_list, two_list)
@@ -111,7 +112,7 @@ def image_diff(file_name, **kwargs):
 
 
 def _get_args(args):
-    """Takes file name as Arg"""
+    """Takes file name as Argument and passes to image_diff function"""
     parser = argparse.ArgumentParser()
     parser.add_argument('-l', '--loglevel', dest="loglevel",
                         choices=['INFO', 'DEBUG', 'WARN', 'ERROR'],
