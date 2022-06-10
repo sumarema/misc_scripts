@@ -1,4 +1,4 @@
-Pillow==8.3.2
+Pillow==9.0.1
 six==1.14.0
 setuptools==40.8.0
 python-dateutil==2.8.1
