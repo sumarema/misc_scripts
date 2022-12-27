@@ -1,6 +1,6 @@
 Pillow==9.0.1
 six==1.14.0
-setuptools==40.8.0
+setuptools==65.5.1
 python-dateutil==2.8.1
 pyparsing==2.4.6
 numpy==1.22.0
